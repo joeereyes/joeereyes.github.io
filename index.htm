@@ -35,7 +35,8 @@
 
             var map = L.map('mapid').setView([34.0489, -111.632935], 6);
 
-            var basemap = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png', {
+            var basemap = L.tileLayer('https://api.mapbox.com/styles/v1/joeereyes/cjg4fcarx0kmw2rpoieqj0vmg/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1Ijoiam9lZXJleWVzIiwiYSI6ImNqYWE5Z2d1MDBwOGIyd3E5dW82MTduNjkifQ.vxeAATzq4rt968OdsAF_DA
+', {
                 attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
                 subdomains: 'abcd',
                 maxZoom: 19
